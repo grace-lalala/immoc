@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+body{
+    background-color: #F5F5F5;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    height: 150px;
+}
+.top .topnav{
+    width: 100%;
+    height: 27px ;
+    background: url("./images/top_bg.jpg") ;
+}
+.topnav .topnav_content {
+    margin: 0 auto;
+    width: 1000px;
+    height: 27px;
+
+}
+.topnav .topnav_content ul{
+    float: right ;
+}
+.topnav .topnav_content li{
+    float: left ;
+    width: 70px;
+    list-style-image: url("./images/arrow.jpg");
+    line-height: 27px;
+}
+.topnav .topnav_content a:link,.topnav_content a:visited {
+    color: #8E8E8E;
+}
+.topnav_content a:hover ,.topnav_content a:active {
+    color: RGB(202,57,74);
+}
+.logo {
+    margin: 0 auto;
+    width: 1000px;
+    height: 80px;
+    background: #FFFFFF;
+}
+.logo .logo_left {
+    width: 500px;
+    height: 80px;
+    float: left ;
+    background: url("./images/logo.jpg") no-repeat ;
+}
+.logo .logo_right {
+    float: right ;
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    color: #8E8E8E ;
+}
+.logo .logo_right img{
+    vertical-align: middle ;
+    margin-right: 10px;
+}
+.logo .logo_right span{
+    font-family:"Microsoft YaHei UI";
+    font-size: 22px;
+    color: #CC0000 ;
+}
+.nav{
+    margin: 0 auto;
+    width: 1000px;
+    height: 40px;
+    background: RGB(120,111,102);
+    border-radius: 5px;
+}
+.nav_left {
+    width: 650px;
+    float:left;
+    padding-left: 50px;
+}
+.nav_left ul{
+    float: left ;
+}
+.nav_left li{
+    float: left ;
+    list-style: none;
+    line-height: 40px;
+    width: 100px;
+    overflow: hidden ;
+}
+.nav_left a:link ,.nav_left a:visited {
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+    color: #FFFFFF ;
+}
+.nav_left a:hover ,.nav_left a:active {
+    font-size: 16px;
+    color: #FFFF00;
+    font-family: "Microsoft YaHei UI";
+}
+.nav_right .serch {
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    background: url("./images/search.jpg") no-repeat right center ;
+    background-color: #FFFFFF ;
+    padding-right: 26px;
+}
+.banner{
+    height:310px;
+    width:1000px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.banner .pic{
+    overflow: hidden;
+}
+.center{
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.center .newscenter{
+    float: left;
+    width: 340px;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+}
+.center_top{
+    height: 35px;
+    border-bottom: 2px solid #E8E8E8;
+}
+.center_top h6{
+    width: 70%;
+    font-family: "Microsoft YaHei UI";
+    font-size: 14px;
+    color: #786F66;
+    float: left;
+    line-height: 35px;
+    padding-left: 20px;
+}
+.center_top a{
+    line-height: 35px;
+    width: 20%;
+    color: #999999;
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+}
+.newscenter .news_pic{
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.news_pic img{
+    float: left;
+    margin: 0 5px;
+}
+.news_pic a{
+    text-decoration: none;
+    color: #CC0000;
+}
+.newscenter .news_list{
+    margin-top: 20px;
+    line-height: 22px;
+    list-style: none;
+    padding:0 10px;
+}
+.news_list li{
+    list-style: none;
+    background: url("./images/list.jpg") no-repeat;
+    padding:0 10px;
+    border-bottom: 1px dotted #CCCCCC;
+    color: #999999;
+}
+.news_list a{
+    text-decoration: none;
+}
+.news_list a:link,.news_list a:visited{
+    color: #000000;
+}
+.news_list a:hover,.news_list a:active{
+    color: #FF0000;
+}
+.news_list span{
+    float: right;
+}
+.center .coursescenter{
+    float: left;
+    height: 250px;
+    width: 410px;
+    margin: 0 7px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+}
+.coursescenter .courses_pic{
+    margin-top: 10px;
+    line-height: 22px;
+    height: 120px;
+}
+.coursescenter .courses_pic img{
+    margin: 0 5px;
+    float: left;
+}
+.courses_pic a{
+    text-decoration: none;
+    color: #CC0000;
+}
+.coursescenter .courses_list{
+    height:40px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background: url("./images/product_type_bg.jpg") no-repeat;
+}
+.coursescenter .courses_list li{
+    list-style-type: none;
+    float: left;
+    margin:0 20px;
+    line-height: 40px;
+}
+.center .mediacenter{
+    width: 230px;
+    float: left;
+    height: 250px;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+}
+.mediacenter .video{
+    border: 1px solid #E8E8E8;
+    margin-left: 4px;
+    margin-top: 2px;
+}
+.mediacenter .media_pic{
+    border: 1px solid #E8E8E8;
+    margin-top: 10px;
+}
+.copyright{
+    width: 100%;
+    height: 200px;
+    background: #E8E8E8;
+    margin-top: 10px;
+}
+.copyright_content{
+    width: 1000px;
+    margin:0 auto;
+    padding-top: 20px;
+}
+.copyright_content li{
+    list-style: none;
+    float: left;
+    width: 200px;
+    background: url("./images/line.png") no-repeat right center;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Microsoft YaHei UI";
+}
+.copyright_content a{
+    text-decoration: none;
+    color:#999999;
+    font-size: 18px;
+}
+.copyright_content li ul li a{
+    font-size: 14px;
+}
